@@ -335,37 +335,74 @@ class RIReaper : HDWeapon {
 
 			// Draw Chambered Rounds
 			switch (weaponstatus[ASHTS_UNDERBARREL]) {
+
+				// Draw Shell + Rocquette
 				case 1:
 
 					// Draw Chambered Shell
 					if (hdw.weaponstatus[ASHTS_CHAMBER]==3) {
-						sb.drawrect(-30-3,-25-5, 3, 5);
-						sb.drawrect(-30-3,-22-2, 3, 2);
+						HDCore.DrawSimpleShell(
+							sb,
+							Color(255, sb.sbColour.r, sb.sbColour.g, sb.sbColour.b),
+							(-30, -22),
+							3,
+							1.0,
+							sb.DI_SCREEN_CENTER_BOTTOM
+						);
 					} else if (hdw.weaponstatus[ASHTS_CHAMBER]==2) {
+						// TODO:  Replace with HDCore Prefab of half-spent shell?
 						sb.drawrect(-30-3,-25-2, 3, 2);
 						sb.drawrect(-30-3,-22-2, 3, 2);
 					} else if (hdw.weaponstatus[ASHTS_CHAMBER]==1) {
-						sb.drawrect(-30-3,-22-2, 3, 2);
+						HDCore.DrawSpentShell(
+							sb,
+							Color(255, sb.sbColour.r, sb.sbColour.g, sb.sbColour.b),
+							(-30, -22),
+							3,
+							1.0,
+							sb.DI_SCREEN_CENTER_BOTTOM
+						);
 					}
 
 					// Draw Chambered Rocquette
 					if (hdw.weaponstatus[0]&ASHTF_GZCHAMBER) {
-						sb.drawrect(-23-3,-22-1.5, 3, 1.5);
-						sb.drawrect(-24-1,-22-8, 1, 8);
-						sb.drawrect(-23-3,-25-4, 3, 4);
+						HDCore.DrawRocquette(
+							sb, 
+							Color(255, sb.sbColour.r, sb.sbColour.g, sb.sbColour.b),
+							(-26, -22),
+							3,
+							1.0,
+							sb.DI_SCREEN_CENTER_BOTTOM
+						);
 					}
 					break;
+
+				// Draw Shell
 				default:
 
 					// Draw Chambered Shell
 					if (hdw.weaponstatus[ASHTS_CHAMBER]==3) {
-						sb.drawrect(-26-3,-25-5, 3, 5);
-						sb.drawrect(-26-3,-22-2, 3, 2);
+						HDCore.DrawSimpleShell(
+							sb,
+							Color(255, sb.sbColour.r, sb.sbColour.g, sb.sbColour.b),
+							(-29, -22),
+							3,
+							1.0,
+							sb.DI_SCREEN_CENTER_BOTTOM
+						);
 					} else if (hdw.weaponstatus[ASHTS_CHAMBER]==2) {
+						// TODO:  Replace with HDCore Prefab of half-spent shell?
 						sb.drawrect(-26-3,-25-2, 3, 2);
 						sb.drawrect(-26-3,-22-2, 3, 2);
 					} else if (hdw.weaponstatus[ASHTS_CHAMBER]==1) {
-						sb.drawrect(-26-3,-22-2, 3, 2);
+						HDCore.DrawSpentShell(
+							sb,
+							Color(255, sb.sbColour.r, sb.sbColour.g, sb.sbColour.b),
+							(-29, -22),
+							3,
+							1.0,
+							sb.DI_SCREEN_CENTER_BOTTOM
+						);
 					}
 					break;
 			}
