@@ -1,0 +1,52 @@
+// Ammo Usages
+// TODO: Re-implement within Weapon Classes instead
+addAmmoUser => { "ammoName": "HDPistolAmmo", "name": "RIThompson" }
+addAmmoUser => { "ammoName": "FourMilAmmo", "name": "RIReaper" }
+addAmmoUser => { "ammoName": "HD4mMag", "name": "RIReaper" }
+addAmmoUser => { "ammoName": "HDShellAmmo", "name": "RIReaper" }
+addAmmoUser => { "ammoName": "HDRocketAmmo", "name": "RIReaper" }
+addAmmoUser => { "ammoName": "BrontornisRound", "name": "RIBrontoBuddy" }
+addAmmoUser => { "ammoName": "HDReapM8", "name": "RIReaper" }
+addAmmoUser => { "ammoName": "HDReapD20", "name": "RIReaper" }
+addAmmoUser => { "ammoName": "HD9mMag30", "name": "RIThompson" }
+addAmmoUser => { "ammoName": "HDTmpsD70", "name": "RIThompson" }
+addAmmoUser => { "ammoName": "HDTmpsD50", "name": "RIThompson" }
+addAmmoUser => { "ammoName": "HDTmpsM20", "name": "RIThompson" }
+
+// Backpack Spawn Pool Filters
+addBPSpawnPoolFilter => { "name": "RIBrontoBuddy", "allowed": "#brontobuddy_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "RIKhleb", "allowed": "#khleb_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "RIReaper", "allowed": "#reaper_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "RIThompson", "allowed": "#thompson_allowBackpacks" }
+
+addBPSpawnPoolFilter => { "name": "RIReapM8", "allowed": "#reapermag_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "RIReapD20", "allowed": "#reaperdrummag_allowBackpacks" }
+// addBPSpawnPoolFilter => { "name": "RITmpsM30", "allowed": "#thompsondrummag_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "RITmpsD70", "allowed": "#thompsondrummag_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "RITmpsM20", "allowed": "#thompsonboxmag_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "RITmpsD50", "allowed": "#thompson45acpdrummag_allowBackpacks" }
+
+// Bronto-Buddy Spawn Entries
+newSpawnTable => { "spawnName": "Brontornis", "addOriginalThing": "true", "persists": "true" }
+addSpawnTableSingleEntry => { "tableName": "Brontornis", "name": "RIBrontoBuddy", "weight": "#brontobuddy_spawn_bias", "persists": "#brontobuddy_persistent_spawning" }
+
+// Khleb Spawn Entries
+addSpawnTableSingleEntry => { "tableName": "ShotgunReplaces", "name": "RIKhleb", "weight": "#khleb_spawn_bias", "persists": "#khleb_persistent_spawning" }
+
+// Reaper Spawn Entries
+addSpawnTableSingleEntry => { "tableName": "ShotgunReplaces", "name": "ReaperRandom", "weight": "#reaper_hunter_spawn_bias", "persists": "#reaper_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "SuperShotgunReplaces", "name": "ReaperRandom", "weight": "#reaper_slayer_spawn_bias", "persists": "#reaper_persistent_spawning" }
+
+//Thompson Spawn Entries
+addSpawnTableSingleEntry => { "tableName": "ChaingunReplaces", "name": "ThompsonRandom", "weight": "#thompson_chaingun_spawn_bias", "persists": "#thompson_persistent_spawning" }
+
+// Reaper Mag Spawn Entries
+addSpawnTableSingleEntry => { "tableName": "ShellBoxReplaces", "name": "RIReapM8", "weight": "#reapermag_shellbox_spawn_bias", "persists": "#reapermag_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "ShellBoxReplaces", "name": "RIReapD20", "weight": "#reaperdrum_shellbox_spawn_bias", "persists": "#reaperdrummag_persistent_spawning" }
+
+// Thompson Mag Spawn Entries
+// addSpawnTableSingleEntry => { "tableName": "ClipReplaces", "name": "RITmpsM30", "weight": "#thompsonboxmag_clipmag_spawn_bias", "persists": "#thompsonboxmag_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "ClipReplaces", "name": "RITmpsD70", "weight": "#thompsondrummag_clipmag_spawn_bias", "persists": "#thompsondrummag_persistent_spawning" }
+
+addSpawnTableSingleEntry => { "tableName": "ClipReplaces", "name": "RITmpsM20", "weight": "#thompsonboxmag_clipmag_spawn_bias", "persists": "#thompsonboxmag_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "ClipReplaces", "name": "RITmpsD50", "weight": "#thompson45acpdrummag_clipmag_spawn_bias", "persists": "#thompson45acpdrummag_persistent_spawning" }

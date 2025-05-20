@@ -1,46 +1,46 @@
 
 // Bronto-Buddy
-server bool brontobuddy_allowBackpacks               = true;
-server int  brontobuddy_spawn_bias                   = 4;
-server bool brontobuddy_persistent_spawning          = false;
+server bool  brontobuddy_allowBackpacks               = true;
+server float brontobuddy_spawn_bias                   = 0.2;
+server bool  brontobuddy_persistent_spawning          = false;
 
 // Khleb Pump-Action Shotgun
-server bool khleb_allowBackpacks                     = false;
-server int  khleb_spawn_bias                         = -1;
-server bool khleb_persistent_spawning                = false;
+server bool  khleb_allowBackpacks                     = false;
+server float khleb_spawn_bias                         = 0.0;
+server bool  khleb_persistent_spawning                = false;
 
 // Reaper Auto-Shotgun
-server bool reaper_allowBackpacks                    = true;
-server int  reaper_hunter_spawn_bias                 = 19;
-server int  reaper_slayer_spawn_bias                 = 19;
-server bool reaper_persistent_spawning               = false;
+server bool  reaper_allowBackpacks                    = true;
+server float reaper_hunter_spawn_bias                 = 0.5;
+server float reaper_slayer_spawn_bias                 = 0.7;
+server bool  reaper_persistent_spawning               = false;
 
 // Thompson
-server bool thompson_allowBackpacks                  = true;
-server int  thompson_chaingun_spawn_bias             = 24;
-server bool thompson_persistent_spawning             = false;
+server bool  thompson_allowBackpacks                  = true;
+server float thompson_chaingun_spawn_bias             = 0.52;
+server bool  thompson_persistent_spawning             = false;
 
 // Reaper 8-round Magazine
-server bool reapermag_allowBackpacks                 = true;
-server int  reapermag_shellbox_spawn_bias            = 19;
-server bool reapermag_persistent_spawning            = false;
+server bool  reapermag_allowBackpacks                 = true;
+server float reapermag_shellbox_spawn_bias            = 0.85;
+server bool  reapermag_persistent_spawning            = false;
 
 // Reaper 20-round Drum Magazine
-server bool reaperdrummag_allowBackpacks             = true;
-server int  reaperdrummag_shellbox_spawn_bias        = 19;
-server bool reaperdrummag_persistent_spawning        = false;
+server bool  reaperdrummag_allowBackpacks             = true;
+server float reaperdrummag_shellbox_spawn_bias        = 0.85;
+server bool  reaperdrummag_persistent_spawning        = false;
 
 // Thompson 70-round 9x22mm Drum Magazine
-server bool thompsondrummag_allowBackpacks           = true;
-server int  thompsondrummag_clipmag_spawn_bias       = 29;
-server bool thompsondrummag_persistent_spawning      = false;
+server bool  thompsondrummag_allowBackpacks           = true;
+server float thompsondrummag_clipmag_spawn_bias       = 1.1333;
+server bool  thompsondrummag_persistent_spawning      = false;
 
 // Thompson 50-round .45 ACP Drum Magazine
-server bool thompson45acpdrummag_allowBackpacks      = true;
-server int  thompson45acpdrummag_clipmag_spawn_bias  = 29;
-server bool thompson45acpdrummag_persistent_spawning = false;
+server bool  thompson45acpdrummag_allowBackpacks      = true;
+server float thompson45acpdrummag_clipmag_spawn_bias  = 1.1333;
+server bool  thompson45acpdrummag_persistent_spawning = false;
 
 // Thompson 20-round .45 ACP Box Magazine
-server bool thompsonboxmag_allowBackpacks            = true;
-server int  thompsonboxmag_clipmag_spawn_bias        = 29;
-server bool thompsonboxmag_persistent_spawning       = false;
+server bool  thompsonboxmag_allowBackpacks            = true;
+server float thompsonboxmag_clipmag_spawn_bias        = 1.1333;
+server bool  thompsonboxmag_persistent_spawning       = false;

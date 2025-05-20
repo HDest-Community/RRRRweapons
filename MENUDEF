@@ -45,7 +45,7 @@ OptionMenu "khlebSpawning" {
 
 	StaticText "$MENU_SPAWNOPTIONS", "Red"
     StaticText "$MENU_KHLEB_SPAWNTEXT", "White"
-	ScaleSlider "$MENU_WEPSPAWNRATE", "khleb_spawn_bias", -1, 999, 1, "$MENU_REPLACEALL", "$MENU_DISABLED"
+	Slider "$MENU_WEPSPAWNRATE", "khleb_spawn_bias",  0.0, 1000, .01, 3
 	SafeCommand "$MENU_RESETWEP", "resetcvar khleb_spawn_bias"
  	StaticText ""
 
@@ -74,10 +74,10 @@ OptionMenu "reaperSpawning" {
 
 	StaticText "$MENU_WEPSPAWNOPTIONS", "Red"
     StaticText "$MENU_REAPER_HUNTER_SPAWNTEXT", "White"
-	ScaleSlider "$MENU_WEPSPAWNRATE", "reaper_hunter_spawn_bias", -1, 999, 1, "$MENU_REPLACEALL", "$MENU_DISABLED"
+	Slider "$MENU_WEPSPAWNRATE", "reaper_hunter_spawn_bias",  0.0, 1000, .01, 3
 	SafeCommand "$MENU_RESETWEP", "resetcvar reaper_hunter_spawn_bias"
     StaticText "$MENU_REAPER_SLAYER_SPAWNTEXT", "White"
-	ScaleSlider "$MENU_WEPSPAWNRATE", "reaper_slayer_spawn_bias", -1, 999, 1, "$MENU_REPLACEALL", "$MENU_DISABLED"
+	Slider "$MENU_WEPSPAWNRATE", "reaper_slayer_spawn_bias",  0.0, 1000, .01, 3
 	SafeCommand "$MENU_RESETWEP", "resetcvar reaper_slayer_spawn_bias"
  	StaticText ""
 
@@ -87,7 +87,7 @@ OptionMenu "reaperSpawning" {
 
 	StaticText "$MENU_MAGSPAWNOPTIONS", "Red"
     StaticText "$MENU_REAPERMAG_SHELLBOX_SPAWNTEXT", "White"
-	ScaleSlider "$MENU_MAGSPAWNRATE", "reapermag_shellbox_spawn_bias", -1, 999, 1, "$MENU_REPLACEALL", "$MENU_DISABLED"
+	Slider "$MENU_MAGSPAWNRATE", "reapermag_shellbox_spawn_bias",  0.0, 1000, .01, 3
 	SafeCommand "$MENU_RESETMAG", "resetcvar reapermag_shellbox_spawn_bias"
     StaticText ""
 
@@ -96,7 +96,7 @@ OptionMenu "reaperSpawning" {
  	StaticText ""
 
     StaticText "$MENU_REAPERDRUMMAG_SHELLBOX_SPAWNTEXT", "White"
-	ScaleSlider "$MENU_MAGSPAWNRATE", "reaperdrummag_shellbox_spawn_bias", -1, 999, 1, "$MENU_REPLACEALL", "$MENU_DISABLED"
+	Slider "$MENU_MAGSPAWNRATE", "reaperdrummag_shellbox_spawn_bias",  0.0, 1000, .01, 3
 	SafeCommand "$MENU_RESETMAG", "resetcvar reaperdrummag_shellbox_spawn_bias"
     StaticText ""
 
@@ -130,7 +130,7 @@ OptionMenu "thompsonSpawning" {
 
 	StaticText "$MENU_SPAWNOPTIONS", "Green"
     StaticText "$MENU_THOMPSON_CHAINGUN_SPAWNTEXT", "White"
-	ScaleSlider "$MENU_WEPSPAWNRATE", "thompson_chaingun_spawn_bias", -1, 999, 1, "$MENU_REPLACEALL", "$MENU_DISABLED"
+	Slider "$MENU_WEPSPAWNRATE", "thompson_chaingun_spawn_bias",  0.0, 1000, .01, 3
 	SafeCommand "$MENU_RESETWEP", "resetcvar thompson_chaingun_spawn_bias"
  	StaticText ""
 
@@ -140,7 +140,7 @@ OptionMenu "thompsonSpawning" {
 
 	StaticText "$MENU_MAGSPAWNOPTIONS", "Green"
     /* StaticText "$MENU_THOMPSONDRUMMAG_CLIPMAG_SPAWNTEXT", "White"
-	ScaleSlider "$MENU_MAGSPAWNRATE", "thompsondrummag_clipmag_spawn_bias", -1, 999, 1, "$MENU_REPLACEALL", "$MENU_DISABLED"
+	Slider "$MENU_MAGSPAWNRATE", "thompsondrummag_clipmag_spawn_bias",  0.0, 1000, .01, 3
 	SafeCommand "$MENU_RESETMAG", "resetcvar thompsondrummag_clipmag_spawn_bias"
 	StaticText ""
 
@@ -149,7 +149,7 @@ OptionMenu "thompsonSpawning" {
  	StaticText "" */
 
     StaticText "$MENU_THOMPSON45ACPDRUMMAG_CLIPMAG_SPAWNTEXT", "White"
-	ScaleSlider "$MENU_MAGSPAWNRATE", "thompson45acpdrummag_clipmag_spawn_bias", -1, 999, 1, "$MENU_REPLACEALL", "$MENU_DISABLED"
+	Slider "$MENU_MAGSPAWNRATE", "thompson45acpdrummag_clipmag_spawn_bias",  0.0, 1000, .01, 3
 	SafeCommand "$MENU_RESETMAG", "resetcvar thompson45acpdrummag_clipmag_spawn_bias"
  	StaticText ""
 
@@ -158,7 +158,7 @@ OptionMenu "thompsonSpawning" {
  	StaticText ""
 	
 	StaticText "$MENU_THOMPSONBOXMAG_CLIPMAG_SPAWNTEXT", "White"
-	ScaleSlider "$MENU_MAGSPAWNRATE", "thompsonboxmag_clipmag_spawn_bias", -1, 999, 1, "$MENU_REPLACEALL", "$MENU_DISABLED"
+	Slider "$MENU_MAGSPAWNRATE", "thompsonboxmag_clipmag_spawn_bias",  0.0, 1000, .01, 3
 	SafeCommand "$MENU_RESETMAG", "resetcvar thompsonboxmag_clipmag_spawn_bias"
 	StaticText ""
 
@@ -191,7 +191,7 @@ OptionMenu "brontobuddySpawning" {
 
 	StaticText "$MENU_SPAWNOPTIONS", "Orange"
     StaticText "$MENU_BRONTOBUDDY_SPAWNTEXT", "White"
-	ScaleSlider "$MENU_WEPSPAWNRATE", "brontobuddy_spawn_bias", -1, 999, 1, "$MENU_REPLACEALL", "$MENU_DISABLED"
+	Slider "$MENU_WEPSPAWNRATE", "brontobuddy_spawn_bias",  0.0, 1000, .01, 3
 	SafeCommand "$MENU_RESETWEP", "resetcvar brontobuddy_spawn_bias"
  	StaticText ""
 
