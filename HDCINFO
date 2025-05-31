@@ -50,3 +50,9 @@ addSpawnTableSingleEntry => { "tableName": "ClipReplaces", "name": "RITmpsD70", 
 
 addSpawnTableSingleEntry => { "tableName": "ClipReplaces", "name": "RITmpsM20", "weight": "#thompsonboxmag_clipmag_spawn_bias", "persists": "#thompsonboxmag_persistent_spawning" }
 addSpawnTableSingleEntry => { "tableName": "ClipReplaces", "name": "RITmpsD50", "weight": "#thompson45acpdrummag_clipmag_spawn_bias", "persists": "#thompson45acpdrummag_persistent_spawning" }
+
+// AceCorp Weapon Crate Filters
+addWeaponCrateFilter => { "name": "RIBrontoBuddy", "allowed": "#brontobuddy_allowBackpacks" }
+addWeaponCrateFilter => { "name": "RIKhleb", "allowed": "#khleb_allowBackpacks" }
+addWeaponCrateFilter => { "name": "RIReaper", "allowed": "#reaper_allowBackpacks" }
+addWeaponCrateFilter => { "name": "RIThompson", "allowed": "#thompson_allowBackpacks" }
