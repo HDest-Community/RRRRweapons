@@ -112,3 +112,51 @@ MENU_THOMPSON45ACPDRUMMAG_BACKPACKS         = "Control whether Thompson .45 ACP 
 
 MENU_THOMPSONBOXMAG_CLIPMAG_SPAWNTEXT       = "Control the spawn rate of Thompson .45 ACP Box Magazines on Clip Magazines:";
 MENU_THOMPSONBOXMAG_BACKPACKS               = "Control whether Thompson .45 ACP Box Magazines spawn in Backpacks:";
+
+
+// Merchant Store Entries
+
+// Bronto-Buddy
+MERCH_CAT_BRONTOBUDDY             = "RightInfinity";
+MERCH_TAG_BRONTOBUDDY             = "Brontornis Cannon W/Bolt Rack";
+MERCH_FLAVOR_BRONTOBUDDY          = "It's a buddy, for your Bronto.";
+
+// Khleb
+MERCH_CAT_KHLEB                   = "RightInfinity";
+MERCH_TAG_KHLEB                   = "Khleb";
+MERCH_FLAVOR_KHLEB                = "It's Khlebberin' time!";
+
+// Reaper
+MERCH_CAT_REAPER                  = "RightInfinity";
+MERCH_TAG_REAPER                  = "Reaper Automatic Shotgun";
+MERCH_FLAVOR_REAPER               = "Don't fear the reaper?  Oh, they will.";
+
+// Reaper Drum Mag
+MERCH_CAT_REAPERMAGD20            = "RightInfinity";
+MERCH_TAG_REAPERMAGD20            = "Reaper 12ga Drum Magazine";
+MERCH_FLAVOR_REAPERMAGD20         = "";
+
+// Reaper Box Mag
+MERCH_CAT_REAPERMAGM8              = "RightInfinity";
+MERCH_TAG_REAPERMAGM8             = "Reaper 12ga Box Magazine";
+MERCH_FLAVOR_REAPERMAGM8          = "";
+
+// Thompson
+MERCH_CAT_THOMPSON                = "RightInfinity";
+MERCH_TAG_THOMPSON                = "Thompson Submachine Gun";
+MERCH_FLAVOR_THOMPSON             = "Merry Christmas, ya filthy animal.";
+
+// Thompson 9mm Drum Mag
+MERCH_CAT_THOMPSONMAGD70          = "RightInfinity";
+MERCH_TAG_THOMPSONMAGD70          = "Thompson 9mm Drum Magazine";
+MERCH_FLAVOR_THOMPSONMAGD70       = "";
+
+// Thompson .45 ACP Drum Mag
+MERCH_CAT_THOMPSONMAGD50          = "RightInfinity";
+MERCH_TAG_THOMPSONMAGD50          = "Thompson .45 ACP Drum Magazine";
+MERCH_FLAVOR_THOMPSONMAGD50       = "";
+
+// Thompson .45 ACP Box Mag
+MERCH_CAT_THOMPSONMAGM20          = "RightInfinity";
+MERCH_TAG_THOMPSONMAGM20          = "Thompson .45 ACP Box Magazine";
+MERCH_FLAVOR_THOMPSONMAGM20       = "";

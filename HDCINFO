@@ -56,3 +56,15 @@ addWeaponCrateFilter => { "name": "RIBrontoBuddy", "allowed": "#brontobuddy_allo
 addWeaponCrateFilter => { "name": "RIKhleb", "allowed": "#khleb_allowBackpacks" }
 addWeaponCrateFilter => { "name": "RIReaper", "allowed": "#reaper_allowBackpacks" }
 addWeaponCrateFilter => { "name": "RIThompson", "allowed": "#thompson_allowBackpacks" }
+
+// Merchant Store Entries
+newMerchantStoreItem => { "enabled": "#hdm_enable_brontobuddy", "type": "weapon", "category": "$MERCH_CAT_BRONTOBUDDY", "item": "RIBrontoBuddy", "icon": "BLBRD0", "displayName": "$MERCH_TAG_BRONTOBUDDY", "basePrice": "700", "flavorText": "$MERCH_FLAVOR_BRONTOBUDDY" }
+newMerchantStoreItem => { "enabled": "#hdm_enable_khleb", "type": "weapon", "category": "$MERCH_CAT_KHLEB", "item": "RIKhleb", "icon": "HUNTA0", "displayName": "$MERCH_TAG_KHLEB", "basePrice": "750", "flavorText": "$MERCH_FLAVOR_KHLEB" }
+newMerchantStoreItem => { "enabled": "#hdm_enable_reaper", "type": "weapon", "category": "$MERCH_CAT_REAPER", "item": "RIReaper", "icon": "ASHTA0", "displayName": "$MERCH_TAG_REAPER", "basePrice": "250", "flavorText": "$MERCH_FLAVOR_REAPER" }
+newMerchantStoreItem => { "enabled": "#hdm_enable_thompson", "type": "weapon", "category": "$MERCH_CAT_THOMPSON", "item": "RIThompson", "icon": "TMPNA0", "displayName": "$MERCH_TAG_THOMPSON", "basePrice": "500", "flavorText": "$MERCH_FLAVOR_THOMPSON" }
+
+newMerchantStoreItem => { "enabled": "#hdm_enable_thompsonmagd70", "type": "mag", "category": "$MERCH_CAT_THOMPSONMAGD70", "item": "RITmpsD70", "icon": "TDRMD0", "displayName": "$MERCH_TAG_THOMPSONMAGD70", "basePrice": "21", "flavorText": "$MERCH_FLAVOR_THOMPSONMAGD70" }
+newMerchantStoreItem => { "enabled": "#hdm_enable_thompsonmagd50", "type": "mag", "category": "$MERCH_CAT_THOMPSONMAGD50", "item": "RITmpsD50", "icon": "TDRMD0", "displayName": "$MERCH_TAG_THOMPSONMAGD50", "basePrice": "50", "flavorText": "$MERCH_FLAVOR_THOMPSONMAGD50" }
+newMerchantStoreItem => { "enabled": "#hdm_enable_thompsonmagm20", "type": "mag", "category": "$MERCH_CAT_THOMPSONMAGM20", "item": "RITmpsM20", "icon": "CLP3A0", "displayName": "$MERCH_TAG_THOMPSONMAGM20", "basePrice": "6", "flavorText": "$MERCH_FLAVOR_THOMPSONMAGM20" }
+newMerchantStoreItem => { "enabled": "#hdm_enable_reapermagd20", "type": "mag", "category": "$MERCH_CAT_REAPERMAGD20", "item": "RIReapD20", "icon": "ASDMB0", "displayName": "$MERCH_TAG_REAPERMAGD20", "basePrice": "15", "flavorText": "$MERCH_FLAVOR_REAPERMAGD20" }
+newMerchantStoreItem => { "enabled": "#hdm_enable_reapermagm8", "type": "mag", "category": "$MERCH_CAT_REAPERMAGM8", "item": "RIReapM8", "icon": "ASSMB0", "displayName": "$MERCH_TAG_REAPERMAGM8", "basePrice": "6", "flavorText": "$MERCH_FLAVOR_REAPERMAGM8" }

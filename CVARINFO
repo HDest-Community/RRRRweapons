@@ -44,3 +44,14 @@ server bool  thompson45acpdrummag_persistent_spawning = false;
 server bool  thompsonboxmag_allowBackpacks            = true;
 server float thompsonboxmag_clipmag_spawn_bias        = 1.1333;
 server bool  thompsonboxmag_persistent_spawning       = false;
+
+// Merchant Store Filters
+server bool hdm_enable_brontobuddy                    = true;
+server bool hdm_enable_khleb                          = false;
+server bool hdm_enable_reaper                         = true;
+server bool hdm_enable_reapermagd20                   = true;
+server bool hdm_enable_reapermagm8                    = true;
+server bool hdm_enable_thompson                       = true;
+server bool hdm_enable_thompsonmagd50                 = true;
+server bool hdm_enable_thompsonmagd70                 = true;
+server bool hdm_enable_thompsonmagm20                 = true;
