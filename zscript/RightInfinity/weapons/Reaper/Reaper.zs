@@ -173,7 +173,7 @@ class RIReaper : HDWeapon {
 	override void ForceBasicAmmo() {
 		owner.A_TakeInventory("HDShellAmmo");
 		owner.A_TakeInventory("RIReapD20");
-		owner.A_GiveInventory("RIReapD20");
+		ForceOneBasicAmmo("RIReapD20");
 	}
 
 	override string, double getpickupsprite() {
