@@ -1673,11 +1673,7 @@ class RIReaper : HDWeapon {
 			);
 		spawnshoot:
 			#### # 1 bright light("SHOT") {
-				if (invoker.weaponstatus[ASHTS_MAG]=1) {
-					sprite=getspriteindex("ASHRA0");
-				} else {
-					sprite=getspriteindex("ASHRA0");
-				}
+				sprite = getspriteindex("ASHRA0");
 
 				//shoot the bullet
 				//copy any changes to flash as well!
