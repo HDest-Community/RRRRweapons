@@ -62,11 +62,11 @@ class RIThompson:HDWeapon{
 		if (weaponstatus[TMPS_NINEMIL]) {
 			owner.A_TakeInventory("HDPistolAmmo");
 			owner.A_TakeInventory("RITmpsD70");
-			owner.A_GiveInventory("RITmpsD70");
+			ForceOneBasicAmmo("RITmpsD70");
 		} else {
 			owner.A_TakeInventory("HD45ACPAmmo");
 			owner.A_TakeInventory("RITmpsD50");
-			owner.A_GiveInventory("RITmpsD50");
+			ForceOneBasicAmmo("RITmpsD50");
 		}
 	}
 	override void Tick(){

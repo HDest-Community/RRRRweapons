@@ -9,6 +9,3 @@ version "4.13"
 #include "zscript/RightInfinity/weapons/Khleb/Khleb.zs"
 #include "zscript/RightInfinity/weapons/Reaper/Reaper.zs"
 #include "zscript/RightInfinity/weapons/Thompson/Thompson.zs"
-
-// Spawners
-#include "zscript/RightInfinity/SpawnHandler.zs"
